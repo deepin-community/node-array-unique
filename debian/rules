@@ -1,0 +1,7 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with nodejs
+
+override_dh_auto_test:
+	# No test during build to avoid circular dependencies

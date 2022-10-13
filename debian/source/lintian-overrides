@@ -1,0 +1,4 @@
+# It's a test line with many duplicates -- it's still source
+source: source-is-missing test.js line length is 787 characters (>512)
+source: source-contains-prebuilt-javascript-object test.js line length is 787 characters (>512)
+source: very-long-line-length-in-source-file test.js line length is 791 characters (>512)

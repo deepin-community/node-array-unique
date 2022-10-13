@@ -1,0 +1,22 @@
+Source: node-array-unique
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Thorsten Alteholz <debian@alteholz.de>
+Build-Depends: debhelper-compat (= 12)
+ , pkg-js-tools (>= 0.9.20~)
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-array-unique
+Vcs-Git: https://salsa.debian.org/js-team/node-array-unique.git
+Homepage: https://github.com/jonschlinkert/array-unique
+Rules-Requires-Root: no
+
+Package: node-array-unique
+Architecture: all
+Depends: ${misc:Depends}
+ , nodejs
+Description: Return an array free of duplicate values
+ This node.js module returns an array free of duplicate values. It is
+ the fastest ES5 implementation.
+ .
+ Node.js is an event-based server-side JavaScript engine.
